@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="what.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(36, 35, 35);
+            background-image: url(background.webp) ;/* Replace 'background.jpg' with the path to your image */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            padding: 20px;
+        }
+        .logo {
+            color: #fff;
+            font-size: 24px;
+        }
+        .btn-talk {
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .btn-talk:hover {
+            background-color: #0056b3;
+        }
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            max-width: 800px;
+            margin-top: 20px;
+            margin-left:200px;
+        }
+        .pic {
+            max-width: 200px;
+            height: 500px;
+            margin-right: 20px;
+            opacity: 0.9;
+            border-radius:20px;
+            
+        }
+        .logoo {
+            margin-bottom: 10px;
+        }
+        .btn-group {
+            display: flex;
+            margin-top: 10px;
+        }
+        .btn-group a {
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            margin-right: 10px;
+        }
+        .btn-group a:last-child {
+            margin-right: 0;
+        }
+        .btn-group a:hover {
+            background-color: #0056b3;
+        }
+        .social-icons a {
+            color: #fff;
+            margin-right: 10px;
+        }
+        .container {
+            display: flex;
+        }
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+        .menu-bar {
+            background-color: #333;
+            color: #fff;
+            width: 200px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .menu-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .menu-list li {
+            margin-bottom: 10px;
+        }
+        .menu-list a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+            display: block;
+        }
+        .menu-list .sub-menu {
+            margin-left: 20px;
+        }
+        .menu-list .sub-menu li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2 class="logo"><span>Personal Portfolio</span>.</h2>
+    </header>
+    <section class="home">
+        <div class="content">
+            <img class="pic" src="html css/whatt.jpg">
+            <div>
+                <h2 class="logoo">Hi, I'm <span>Megan Das</span></h2>
+                <h4 class="logoo">CSE-Datascience Student</h4>
+                <div class="btn-group">
+                    <a href="portfolio.html" target="_blank">Hire Me</a>
+                    <a href="#">Let's Talk</a>
+                </div>
+                <div class="social-icons">
+                    <a href="https://in.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.facebook.com/"  target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/?lang=en"  target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" title="camera">
+                        <i class="fa fa-camera-retro" aria-hidden="true"></i>
+                      </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
